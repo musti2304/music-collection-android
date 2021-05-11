@@ -15,6 +15,7 @@ Now if you want to find the latest releases of your favorite artist you could do
 You repeat the steps above for each artist that you are following. This is time consuming and can be frustrating.
 
 # What could be the solution?
+An app that shows you the latest releases of music that you like from artists that you are following.
 
 
 # Definitions
@@ -59,16 +60,9 @@ First, we need a database table to hold our access and refresh tokens. The table
 | *user_id* | *access_token* | *refresh_token* | *updated* 		  |
 | 123	    | 43asd3acffdh   | 4hdfs32132xyc   | 2020-11-23 18:18 |
 
-- Then, we need a database table to hold all the artists we are following. Each user get's his own artist collection.
-	- This is better done locally so that each user has it's own local database 
+Then, we need a database table to hold all the artists we are following. Each user get's his own artist collection.
+This is better done locally so that each user has it's own local database 
 
 | *user_id* | *artist_id* 		 | *artist_name* |
 | 123	    | 34daYer4TGSvser5   |  KAS:ST 		 |
-
-
-
-
-
-
-
 
